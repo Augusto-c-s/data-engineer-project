@@ -26,7 +26,7 @@ cd data-engineer-project
 2. Execute o script Python:
 
 ```
-python etl_script.py
+python request_api.py
 ```
 
 O script será executado automaticamente a cada minuto, realizando o ETL e salvando os resultados nos diretórios especificados.

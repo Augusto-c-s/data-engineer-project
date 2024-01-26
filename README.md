@@ -19,7 +19,7 @@ pip install pandas requests rocketry
 1. Clone este repositório:
 
 ```
-git clone https://github.com/seu-usuario/data-engineer-project.git
+git clone https://github.com/Augusto-c-s/data-engineer-project.git
 cd data-engineer-project
 ```
 
@@ -33,7 +33,7 @@ O script será executado automaticamente a cada minuto, realizando o ETL e salva
 
 ## Estrutura do Projeto
 
-- **etl_script.py:** Script principal que realiza o processo ETL.
+- **etl_run:** Função principal que realiza o processo de ETL e agendamento para executar a cada 1 minuto.
 - **DataEngineer/data-engineer-project/data/csv/uf_area.csv:** Arquivo CSV contendo informações sobre a área de cada estado.
 - **DataEngineer/data-engineer-project/data/parquet/municipios:** Diretório contendo arquivos Parquet particionados por estado, com informações sobre os municípios.
 
